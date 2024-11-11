@@ -1,0 +1,56 @@
+.container {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100vw;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+button,
+.text {
+    margin: 16px 16px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.col {
+    display: flex;
+    flex: 1;
+    align-items: start;
+    flex-direction: column;
+}
+
+input {
+    display: flex;
+    margin-bottom: 16px;
+    margin-top: 4px;
+}
+
+.input-button {
+    display: inline;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    border-radius: 8px;
+    border-width: 0.5px;
+    border-color: grey;
+
+}
+
+.show-password {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        padding: 0px;
+    }
+}
